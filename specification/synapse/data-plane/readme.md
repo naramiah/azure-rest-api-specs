@@ -47,6 +47,9 @@ tag: package-vnet-2019-06-01-preview
 tag: package-monitoring-2019-11-01-preview
 ```
 
+``` yaml $(package-syms)
+tag: package-syms-2021-04-01
+```
 ### Tag: package-spark-2019-11-01-preview
 
 These settings apply only when `--tag=package-spark-2019-11-01-preview` is specified on the command line.
@@ -118,6 +121,14 @@ input-file:
 - Microsoft.Synapse/preview/2019-11-01-preview/monitoring.json
 ```
 
+### Tag: package-syms-2021-04-01
+
+These settings apply only when `--tag=package-syms-2021-04-01` is specified on the command line.
+
+``` yaml $(tag) == 'package-syms-2021-04-01'
+input-file:
+- Microsoft.Synapse/stable/2021-04-01/symsswagger.json
+```
 ## Suppression
 ``` yaml
 directive:
