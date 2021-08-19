@@ -127,7 +127,7 @@ These settings apply only when `--tag=package-syms-2021-04-01` is specified on t
 
 ``` yaml $(tag) == 'package-syms-2021-04-01'
 input-file:
-- Microsoft.Synapse/stable/2021-04-01/symsswagger.json
+- Microsoft.Synapse/stable/2021-04-01/symsapiswagger.json
 ```
 ## Suppression
 ``` yaml
